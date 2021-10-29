@@ -4,11 +4,11 @@
 // SUBSCRIBE YT : ABIL BOTZ & Zero YT7
 // DEVELOPER KONTAK = 082293295376 ( ABIL BOTZ )
 // BASE KONTAK = +62 851-5774-0529 ( BASE )
-// TQ FOR USE ABILBOTZV13 DONT FORGET TU SUPPORT
+// TQ FOR USE SamuelV13 DONT FORGET TU SUPPORT
 // RECODE PAKAI OTAK ADA YG ERROR PASLU RECODE G USH NANYA DEVELOPER !!!
 // NYARI IDE SUSAH TAPI LU G SUBSCRIBE PARAH SIH
 // DH ITU AJA UBAH OWNER DI SETTING.JSON 
-//━━━━━━━━━━━━━━━[ ABIL BOTZ V13 ]━━━━━━━━━━━━━━━━━//
+//━━━━━━━━━━━━━━━[ BOT WIBU ]━━━━━━━━━━━━━━━━━//
 
 const { fetchJosn, kyun, fetchText } = require('./lib/fetcher')
 const { color, bgcolor } = require('./lib/color')
@@ -2454,12 +2454,12 @@ break
 
 case 'infobot':
 tod = `
-「 ABIL BOTZ V13 」
+「 BOT WIBU 」
 📌 PREFIX = Multi
 📌 RUNTIME = ${runtime(process.uptime())}
 📌 BOT NAME = ${botname}
-📌 YOUTUBE = https://bit.ly/3aVaQ5p
-📌 CREATOR = AbilBotz`
+📌 YOUTUBE = Gada
+📌 CREATOR = Samuel`
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: 'BCK MENU➡️' }, type: 1 },
 { buttonId: `${prefix}officialgroup`, buttonText: { displayText: 'OFFICIAL GROUP' }, type: 1 }
@@ -2476,7 +2476,7 @@ hayo = `
 Bot Ini Menggunakan Sc Dari Youtube : http://bit.ly/3aVaQ5p
 Jangan Lupa Di Subscribe Ya
 
-Mau Req Fitur? Chat : wa.me/6282293295376`
+Mau Req Fitur? Chat : wa.me/6288211974450`
 zeroyt7.sendMessage(from, hayo, text, {quoted: ftrol})
 break
 case 'report':
@@ -2488,15 +2488,15 @@ var options = {
 text: teks1,
 contextInfo: { mentionedJid: [nomor] },
 }
-zeroyt7.sendMessage(`6285157740529@s.whatsapp.net`,`6282293295376@s.whatsapp.net`, options, text, { quoted: ftrol })
+zeroyt7.sendMessage(`6285157740529@s.whatsapp.net`,`6288211974450@s.whatsapp.net`, options, text, { quoted: ftrol })
 reply('Masalah Telah Di Laporkan Ke Developer BOT, Mohon Tunggu Untuk Proses Perbaikan oleh Developer')
 break
 
-//━━━━━━━━━━━━━━━[ PENAMBAHAN FITUR BY ABILBOTZ ]━━━━━━━━━━━━━━━━━//
+//━━━━━━━━━━━━━━━[ PENAMBAHAN FITUR BY Samuel ]━━━━━━━━━━━━━━━━━//
 
 case 'tqto':
 but = [
-{ buttonId: `${prefix}abilbotz`, buttonText: { displayText: 'ABILBOTZ' }, type: 1 },
+{ buttonId: `${prefix}Samuel`, buttonText: { displayText: 'Samuel' }, type: 1 },
 { buttonId: `${prefix}zeroyt7`, buttonText: { displayText: 'ZEROYT7' }, type: 1 },
 { buttonId: `${prefix}officialgroup`, buttonText: { displayText: 'OFFICIAL GROUP' }, type: 1 }
 ]
@@ -2506,7 +2506,7 @@ case 'bugreport':
               if (args.length < 1) return reply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
               teks = args.join(' ')
               reply('Terima Kasih Telah Melaporkan Bug Pada Pengembang Bot, Jika Itu Sekedar Iseng Maka Akan Di Ban Oleh Bot!')
-              zeroyt7.sendMessage('6282293295376@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              zeroyt7.sendMessage('6288211974450@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               break
 case 'officialgroup':
 but = [
